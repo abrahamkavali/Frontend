@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    color: white;
+}.header_div{
+    background-color: rgb(15, 15, 15);
+}
+.header1_div{
+    margin-top: 10px;
+    background-color: rgb(19, 18, 18);
+    text-align: justify;
+    border-radius: 10px;
+}
+.footer_div{
+    margin-top: 10px;
+}
+#btn_ref{
+    font-size: 20px;
+    width: 20px;
+    height: 30px;
+}
+.dashboard_content_div{
+    margin-top: 10px;
+    background-color: rgb(20, 20, 20);
+    text-align: justify;
+    padding: 1%;
+    border-radius: 10px;
+    height: 300px;
+}
