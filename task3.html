@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        let emp_obj = {
+            "text": [
+                { "firstname": "John", "Lastname": "Doe" },
+                { "firstname": "Anna", "Lastname": "Smith" },
+                { "firstname": "Peter", "Lastname": "Jones" }
+            ]
+        };
+        let text = JSON.stringify(emp_obj)
+        console.log(text);
+        
+        let arr = JSON.parse(text)
+        console.log(arr)
+    </script>
+</body>
+</html>
